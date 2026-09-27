@@ -6,6 +6,7 @@ int main(){
             break;
         }
         if (i % 2 != 0) {
+            i++;
             continue;
         }
         printf("%d ", i);
